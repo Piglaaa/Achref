@@ -243,7 +243,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   background: var(--second-bg-color);
   padding-bottom: 6rem;
 }
@@ -396,4 +396,20 @@ span {
 .education-content .content p {
   font-size: 1.2rem;
   padding-top: 0.7rem;
+}
+
+.skills {
+  min-height: auto;
+  padding-bottom: 7rem;
+  background: var(--second-bg-color);
+}
+
+.skills .skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.skills-row .skill-column {
+  flex: 1 1 40rem;
 }
